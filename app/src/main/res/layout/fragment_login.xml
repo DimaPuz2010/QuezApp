@@ -9,10 +9,9 @@
         android:id="@+id/welcome_lable"
         android:layout_width="187dp"
         android:layout_height="59dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="172dp"
         android:text="@string/welcome_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,12 +19,12 @@
         android:id="@+id/user_name_field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="@string/user_name_place_holder"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome_lable"
         tools:text="@string/user_name_debug_value" />

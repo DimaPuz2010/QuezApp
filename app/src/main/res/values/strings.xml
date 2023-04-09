@@ -8,7 +8,7 @@
     <string name="user_name_debug_value">Николай</string>
     <string name="user_name_place_holder">Введите имя</string>
 
-
+    <string name="answer_button_label">Выбрать ответ</string>
 
 
 </resources>
