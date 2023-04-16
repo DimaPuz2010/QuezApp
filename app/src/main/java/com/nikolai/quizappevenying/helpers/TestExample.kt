@@ -18,24 +18,24 @@ var answer3 = Answer(
 )
 
 var question1 = Question(
-    text = "Фигура в котоой нет кругов",
+    text = "Фигура в котоой нет углов",
     answers = listOf(answer1, answer2, answer3)
 )
 ////////////////////////////////
 var question2 = Question(
-    text = "Что вы будете делать есле у вас будут лимоны?",
+    text = "Цитросовый фрукт жёлтого цвета",
     answers = listOf(
         Answer(
             isCorrect = false,
-            text = "Сделать лимонад"
+            text = "Мандарин"
         ),
         Answer(
             isCorrect = false,
-            text = "Продать лимоны"
+            text = "Опельсин"
         ),
         Answer(
             isCorrect = true,
-            text = "Сжечь ваш дом до тла"
+            text = "Лимон"
         )
     )
 )
@@ -44,7 +44,7 @@ var question3 = Question(
     text = "",
     answers = listOf(
         Answer(
-            isCorrect = true,
+            isCorrect = false,
             text = ""
         ),
         Answer(
@@ -52,7 +52,7 @@ var question3 = Question(
             text = " "
         ),
         Answer(
-            isCorrect = true,
+            isCorrect = false,
             text = "  "
         )
     )

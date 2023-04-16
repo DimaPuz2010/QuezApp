@@ -9,7 +9,7 @@
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,10 +26,10 @@
         app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question_text">
@@ -54,12 +54,12 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/otvet_button"
+        android:id="@+id/answer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="@string/unsver_button_label"
+        android:text="@string/answer_button_label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 </androidx.constraintlayout.widget.ConstraintLayout>

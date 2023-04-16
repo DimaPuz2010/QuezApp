@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.RadioButton
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -18,7 +19,6 @@ import javax.inject.Inject
 class LoginFragment: Fragment() {
     @Inject
     lateinit var manager: DataManager
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
