@@ -10,5 +10,6 @@
 
     <string name="answer_button_label">Выбрать ответ</string>
 
-
+    <string name="restart_button">Начать заново</string>
+    <string name="result_text">Ваш результат: %1$d</string>
 </resources>

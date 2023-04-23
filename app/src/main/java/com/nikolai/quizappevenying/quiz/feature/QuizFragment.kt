@@ -81,7 +81,9 @@ class QuizFragment: Fragment() {
             {
                 findNavController().navigate(R.id.action_quizFragment_to_resultFragment)
             }
+            answerGroup?.clearCheck()
         }
+
         answer1?.setOnClickListener{
             answerButton?.isEnabled = true
         }
